@@ -12,12 +12,20 @@ export const CardContainer = styled.div`
         margin-bottom: 1.5rem;
         text-align: left;
     }
+    
+    div h1{
+        text-align: center;
+    }
 
     p{
         font-size: 1.5rem;
         line-height: 2.4rem;
         color: ${props => props.theme.textColor};
         text-align: left;
+    }
+
+    div p{
+        text-align: center;
     }
 
     & > button{
